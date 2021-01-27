@@ -1,0 +1,38 @@
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons .MuiIconButton-root {
+  background-color: white;
+  padding: 1.8vw;
+  margin: 0 50px;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.buttons__replay {
+  color: #f5b748;
+}
+
+.buttons__close {
+  color: #ec5e6f;
+}
+
+.buttons__star {
+  color: #62b4f9;
+}
+
+.buttons__fav {
+  color: #76e2b3;
+}
+
+.buttons__flash {
+  color: #915dd1;
+}
